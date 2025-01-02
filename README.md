@@ -1,6 +1,6 @@
 # Duque12 - Robot for Preventing Domestic Accidents
 
-[Image]
+![Duque12](Images/DuqueXII.jpg)
 
 ## Introduction
 Duque12 is a stationary robot designed to prevent domestic accidents during early childhood. This project was developed as a final undergraduate thesis at Universidad de los Andes by the student Leffer Trochez, under the supervision of professors Jorge Alfredo López Jiménez and Nicanor Quijano Silva. The robot combines advanced detection, control, and communication technologies to monitor children's surroundings and ensure their safety. Duque12 features an Arducam PTZ camera, enabling visual tracking with pan, tilt, and zoom capabilities to optimize risk detection in the environment.
