@@ -33,26 +33,23 @@ Below is a detailed description of each folder and its content:
 6. **Images**  
    This folder compiles representative images of the robot, such as photos of the final assembly, explanatory diagrams, and important graphs illustrating the robot's functionalities and system integration. It also includes screenshots of the web interface for both horizontal (PC) and vertical (smartphone) formats under normal and alert conditions. Additionally, it contains graphs and tables relevant to understanding the robot's operation. Two images from the Duque12 participation in an event held at the CREA laboratory at Universidad de los Andes with the VASED Foundation are also included, where children provided feedback and opinions about the robots showcased.
 
-7. **Jetson Nano Content**  
-   This folder includes all necessary configurations and files for the Jetson Nano, organized by components. It contains setups for the AMG8833 thermal camera, Arducam PTZ camera, cooling fan, and YDLidar X4. Additionally, the ROS2 and web server workspaces are included, along with a text file containing essential commands for configuration and execution.
-
-8. **Mechanical Drawings**  
+7. **Mechanical Drawings**  
    This folder contains detailed mechanical drawings of all 3D-printed parts. These drawings include precise measurements and annotations for replicating each robot component. Developed in collaboration with the IMEC consulting office, the designs ensure functionality and ease of manufacturing.
 
-9. **Neural Network Training**  
+8. **Neural Network Training**  
    This folder contains the results and files from neural network training used for real-time object detection via YOLOv8. The classes include child, marble, knife, cat, coin, outlet, medication, dog, adult, and scissors. The results of the mAP50-95 metric are included, which evaluates model performance across multiple precision levels (IoU 50% to 95%).  
    The training process included downloading datasets for all selected classes, balancing the dataset, resizing images, and normalizing bounding box coordinates. Data augmentation techniques such as brightness-contrast adjustment, Gaussian noise, flipping, and 45° rotation were applied. Each class consists of 5555 images, divided into 80% for training and 20% for validation.
 
-10. **Other Documents**  
+9. **Other Documents**  
     This folder contains supplementary documents used during project development, including academic information on the state of the art, technical references, and reports documenting various aspects of Duque12’s construction and implementation.
 
-11. **Printed Circuit Boards (PCB)**  
+10. **Printed Circuit Boards (PCB)**  
     This folder contains PCB design files created using Altium Designer. It includes schematics and final designs of printed circuits manufactured at the Universidad de los Andes’ Printed Circuit Laboratory.
 
-12. **Support Videos**  
+11. **Support Videos**  
     This folder includes demonstration videos of the robot’s functionalities, such as flame detection, noise detection, obstacle detection, open doors and windows detection, high ambient temperature, body temperature, air quality, IR and power LEDs activation, child tracking, dangerous object detection, head movements, camera zoom, night vision, web page functionality, and earthquake detection.
 
-13. **Testing Protocol**  
+12. **Testing Protocol**  
     This folder contains tables and documents generated during the robot’s testing protocol, designed to evaluate its task effectiveness. It includes detailed results for each functionality, scoring functions used for calculations, and evaluation criteria such as response times and penalties. Testing conditions like lighting, noise, and temperature are also described to ensure replicability. Detailed results and supporting videos are available in their respective folders.
 
 ---
