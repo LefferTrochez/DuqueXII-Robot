@@ -160,7 +160,7 @@ You can watch a DuqueXII built here:
 9. Autodesk Fusion 360: [https://www.autodesk.com/products/fusion-360/overview](https://www.autodesk.com/products/fusion-360/overview)
 10. Altium Designer Official Website: [https://www.altium.com/](https://www.altium.com/)
 11. Flask Official Documentation: [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
-12. IMEC Consulting Office, Universidad de los Andes: [https://mecanica.uniandes.edu.co/es/departamento/consultorio](https://mecanica.uniandes.edu.co/es/departamento/consultorio)
+12. Consultorio IMEC, Universidad de los Andes: [https://mecanica.uniandes.edu.co/es/departamento/consultorio](https://mecanica.uniandes.edu.co/es/departamento/consultorio)
 13. Printed Circuit Laboratory, Universidad de los Andes: [https://electricayelectronica.uniandes.edu.co/es/laboratorios/servicios-academicos-y-especializados/nuestros-servicios/servicio-de-fabricaci%C3%B3n-de-circuitos-impresos](https://electricayelectronica.uniandes.edu.co/es/laboratorios/servicios-academicos-y-especializados/nuestros-servicios/servicio-de-fabricaci%C3%B3n-de-circuitos-impresos)
 
 ---
