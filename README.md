@@ -130,6 +130,7 @@ You can watch a DuqueXII built here:
   <img src="https://www.arducam.com/wp-content/uploads/2023/07/logo-4.png" alt="Arducam Logo" width="100">
   <img src="https://img.icons8.com/color/48/autodesk-fusion-360.png" alt="Fusion 360 Logo" width="50">
   <img src="https://e7.pngegg.com/pngimages/194/758/png-clipart-altium-designer-printed-circuit-board-pcb-computer-software-eagle-electronics-animals-thumbnail.png" alt="Altium Designer Logo" width="50">
+  <img src="https://img.icons8.com/ios-filled/50/000000/flask.png" alt="Flask Logo" width="50">
 </p>
 
 
@@ -147,6 +148,9 @@ You can watch a DuqueXII built here:
 8. Arducam Cameras and Modules: [https://www.arducam.com/](https://www.arducam.com/)
 9. Autodesk Fusion 360: [https://www.autodesk.com/products/fusion-360/overview](https://www.autodesk.com/products/fusion-360/overview)
 10. Altium Designer Official Website: [https://www.altium.com/](https://www.altium.com/)
+11. Flask Official Documentation: [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
+12. IMEC Consulting Office, Universidad de los Andes: [https://mecanica.uniandes.edu.co/es/departamento/consultorio](https://mecanica.uniandes.edu.co/es/departamento/consultorio)
+13. Printed Circuit Laboratory, Universidad de los Andes: [https://electricayelectronica.uniandes.edu.co/es/laboratorios/servicios-academicos-y-especializados/nuestros-servicios/servicio-de-fabricaci%C3%B3n-de-circuitos-impresos](https://electricayelectronica.uniandes.edu.co/es/laboratorios/servicios-academicos-y-especializados/nuestros-servicios/servicio-de-fabricaci%C3%B3n-de-circuitos-impresos)
 
 ---
 
