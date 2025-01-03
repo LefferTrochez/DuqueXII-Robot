@@ -118,7 +118,7 @@ The future of DuqueXII envisions transitioning from a stationary robot to a mobi
 ## Video
 
 You can watch a DuqueXII built here:  
-[DuqueXII Demonstration Video](https://uniandes-my.sharepoint.com/:v:/r/personal/l_trochez_uniandes_edu_co/Documents/DuqueXII%20PCBs/Printed%20Circuit%20Boards%20(PCB)/DuqueXII%20Video/DuqueXII%204.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UDaXyQ)
+[DuqueXII Video](https://uniandes-my.sharepoint.com/:v:/r/personal/l_trochez_uniandes_edu_co/Documents/DuqueXII%20PCBs/Printed%20Circuit%20Boards%20(PCB)/DuqueXII%20Video/DuqueXII%204.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UDaXyQ)
 
 ---
 
@@ -130,7 +130,7 @@ You can watch a DuqueXII built here:
   <img src="https://img.icons8.com/color/48/python.png" alt="Python Logo" width="50">
   <img src="https://img.icons8.com/color/48/nvidia.png" alt="Jetson Nano Logo" width="50">
   <img src="https://img.icons8.com/color/48/ubuntu.png" alt="Ubuntu Logo" width="50">
-  <img src="https://github.com/ultralytics/assets/raw/main/logo/yolov8-logo.png" alt="YOLO Logo" width="50">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ultralytics.com%2Fbrand&psig=AOvVaw1cI-5X8B3G1_dvgiXtQbsZ&ust=1735961227763000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDp1NTN2IoDFQAAAAAdAAAAABAE" alt="YOLO Logo" width="50">
   <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black.png" alt="OpenCV Logo" width="50">
   <img src="https://www.arducam.com/wp-content/uploads/2020/12/cropped-Arducam-logo-website-4.png" alt="Arducam Logo" width="100">
   <img src="https://img.icons8.com/color/48/autodesk-fusion-360.png" alt="Fusion 360 Logo" width="50">
