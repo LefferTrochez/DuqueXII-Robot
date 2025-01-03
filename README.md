@@ -130,9 +130,9 @@ You can watch a DuqueXII built here:
   <img src="https://img.icons8.com/color/48/python.png" alt="Python Logo" width="50">
   <img src="https://img.icons8.com/color/48/nvidia.png" alt="Jetson Nano Logo" width="50">
   <img src="https://img.icons8.com/color/48/ubuntu.png" alt="Ubuntu Logo" width="50">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ultralytics.com%2Fbrand&psig=AOvVaw1cI-5X8B3G1_dvgiXtQbsZ&ust=1735961227763000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDp1NTN2IoDFQAAAAAdAAAAABAJ" alt="YOLO Logo" width="50">
+  <img src="https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64994922cf2a6385a4bf4489_UltralyticsYOLO_mark_blue.svg" alt="YOLO Logo" width="50">
   <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black.png" alt="OpenCV Logo" width="50">
-  <img src="https://www.arducam.com/wp-content/uploads/2020/12/cropped-Arducam-logo-website-4.png" alt="Arducam Logo" width="100">
+  <img src="https://www.arducam.com/wp-content/uploads/2023/07/logo-4.png" alt="Arducam Logo" width="100">
   <img src="https://img.icons8.com/color/48/autodesk-fusion-360.png" alt="Fusion 360 Logo" width="50">
   <img src="https://e7.pngegg.com/pngimages/194/758/png-clipart-altium-designer-printed-circuit-board-pcb-computer-software-eagle-electronics-animals-thumbnail.png" alt="Altium Designer Logo" width="50">
 </p>
