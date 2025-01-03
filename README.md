@@ -134,7 +134,7 @@ You can watch a DuqueXII built here:
   <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black.png" alt="OpenCV Logo" width="50">
   <img src="https://www.arducam.com/wp-content/uploads/2020/12/cropped-Arducam-logo-website-4.png" alt="Arducam Logo" width="100">
   <img src="https://img.icons8.com/color/48/autodesk-fusion-360.png" alt="Fusion 360 Logo" width="50">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.colabra.ai%2Fintegrations%2Faltium-365&psig=AOvVaw1h8zvD62S5Zdp5Gsod1g2D&ust=1735961598796000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiEq4rP2IoDFQAAAAAdAAAAABAJ" alt="Altium Designer Logo" width="50">
+  <img src="https://e7.pngegg.com/pngimages/194/758/png-clipart-altium-designer-printed-circuit-board-pcb-computer-software-eagle-electronics-animals-thumbnail.png" alt="Altium Designer Logo" width="50">
 </p>
 
 
