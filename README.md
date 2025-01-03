@@ -77,7 +77,7 @@ Below is a detailed description of each folder and its content:
 ## DuqueXII PCBs (Printed Circuit Board)
 
 The designs for the PCBs of DuqueXII are available at the following link:  
-[DuqueXII PCBs](https://uniandes-my.sharepoint.com/:f:/r/personal/l_trochez_uniandes_edu_co/Documents/DuqueXII%20PCBs?csf=1&web=1&e=8YNfZ0)  
+[DuqueXII PCBs](https://mega.nz/folder/jAYnmKTD#5Ih3JERNvTSeVLhx3qoRsw)  
 
 These files include the final schematics and PCB designs for the circuits used in the robot. They were manufactured at the Printed Circuit Laboratory of the Universidad de los Andes. Unfortunately, due to their large file sizes, it was not possible to upload them to this GitHub repository.
 
