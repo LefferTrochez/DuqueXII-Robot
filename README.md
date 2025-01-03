@@ -107,7 +107,9 @@ You can watch a demonstration of DuqueXII in action here:
 
 ## Technologies Used
 
-![ROS2 Logo](https://roboticsbackend.com/wp-content/uploads/2022/04/ros_logo.png)
+<p align="center">
+  <img src="https://roboticsbackend.com/wp-content/uploads/2022/04/ros_logo.png" alt="ROS2 Logo" width="100">
+</p>
 ![Arduino](https://img.icons8.com/color/48/arduino.png)
 ![Python](https://img.icons8.com/color/48/python.png)
 ![Jetson Nano](https://img.icons8.com/color/48/nvidia.png)
