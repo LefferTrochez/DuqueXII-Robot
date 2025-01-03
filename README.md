@@ -106,7 +106,7 @@ The future of DuqueXII envisions transitioning from a stationary robot to a mobi
 - ROS2 Foxy
 - Ubuntu 20.04
 - Jetson Nano with JetPack 4.6
-- Arduino IDE 1.8.19
+- Arduino IDE 2.3.4
 - Python 3.8
 
 ---
@@ -142,7 +142,7 @@ You can watch a DuqueXII built here:
 
 - To **Dr. David Álvarez Martínez** for access to the AIA laboratory and equipment.  
 - To the **Consultorio IMEC**, led by **Dr. Carlos Francisco Rodríguez Herrera**, for mechanical design guidance.  
-- To the **Printed Circuit Laboratory**, coordinated by **Zulay Villabona Parra** with support from **Alejandro Monroy Ocasiones**, for PCB fabrication assistance.  
+- To the **Printed Circuit Laboratory** of the Universidad de los Andes, coordinated by **Zulay Villabona Parra** with support from **Alejandro Monroy Ocasiones**, for PCB fabrication assistance.  
 
 
 ---
