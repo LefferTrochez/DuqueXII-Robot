@@ -114,7 +114,7 @@ The future of DuqueXII envisions transitioning from a stationary robot to a mobi
 ## Video
 
 You can watch a DuqueXII built here:  
-[DuqueXII Video](https://uniandes-my.sharepoint.com/:v:/r/personal/l_trochez_uniandes_edu_co/Documents/DuqueXII%20PCBs/Printed%20Circuit%20Boards%20(PCB)/DuqueXII%20Video/DuqueXII%204.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UDaXyQ)
+[DuqueXII Video](https://www.youtube.com/shorts/vIDAAq_-fBI)
 
 ---
 
