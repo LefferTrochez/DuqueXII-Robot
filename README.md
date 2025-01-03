@@ -142,9 +142,16 @@ You can watch a DuqueXII built here:
 
 ## References
 
-1. ROS2 Documentation: [https://docs.ros.org/en/](https://docs.ros.org/en/)
-2. Arduino Nano 33 BLE Sense: [https://www.arduino.cc/](https://www.arduino.cc/)
-3. YOLOv8 by Ultralytics: [https://github.com/ultralytics/yolov8](https://github.com/ultralytics/yolov8)
+1. [ROS2 Documentation](https://docs.ros.org/en/)
+2. [Arduino Nano 33 BLE Sense](https://www.arduino.cc/)
+3. [YOLOv8 by Ultralytics](https://github.com/ultralytics/yolov8)
+4. [Python Official Documentation](https://www.python.org/doc/)
+5. [NVIDIA Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
+6. [Ubuntu Official Website](https://ubuntu.com/)
+7. [OpenCV Official Documentation](https://opencv.org/)
+8. [Arducam Cameras and Modules](https://www.arducam.com/)
+9. [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/overview)
+10. [Altium Designer Official Website](https://www.altium.com/)
 
 ---
 
