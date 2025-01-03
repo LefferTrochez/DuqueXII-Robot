@@ -1,11 +1,13 @@
-# Duque12 - Robot for Preventing Domestic Accidents
+# DuqueXII - Robot for Preventing Domestic Accidents
 
-![Duque12](Images/DuqueXII.jpg)
+<p align="center">
+  <img src="Images/DuqueXII.jpg" alt="DuqueXII Robot" width="400">
+</p>
 
 ## Introduction
-Duque12 is a stationary robot designed to prevent domestic accidents during early childhood. This project was developed as a final undergraduate thesis at Universidad de los Andes by the student Leffer Trochez, under the supervision of professors Jorge Alfredo López Jiménez and Nicanor Quijano Silva. The robot combines advanced detection, control, and communication technologies to monitor children's surroundings and ensure their safety. Duque12 features an Arducam PTZ camera, enabling visual tracking with pan, tilt, and zoom capabilities to optimize risk detection in the environment.
+DuqueXII is a stationary robot designed to prevent domestic accidents during early childhood. This project was developed as a final undergraduate thesis at Universidad de los Andes by the student Leffer Trochez, under the supervision of professors Jorge Alfredo López Jiménez and Nicanor Quijano Silva. The robot combines advanced detection, control, and communication technologies to monitor children's surroundings and ensure their safety. DuqueXII features an Arducam PTZ camera, enabling visual tracking with pan, tilt, and zoom capabilities to optimize risk detection in the environment.
 
-Duque12 integrates multiple sensors, cameras, and actuators and uses platforms such as ROS2 for data management, Flask for the web interface, and I2C for communication with the camera. The Jetson Nano and Arduino Nano 33 BLE Sense work together via USB serial to execute the robot’s functionalities.  
+DuqueXII integrates multiple sensors, cameras, and actuators and uses platforms such as ROS2 for data management, Flask for the web interface, and I2C for communication with the camera. The Jetson Nano and Arduino Nano 33 BLE Sense work together via USB serial to execute the robot’s functionalities.  
 This repository complements the academic article and demonstrates the process and results obtained. It is important to note that this version of the robot represents a first iteration, leaving room for improvements to be implemented in future versions.
 
 ---
@@ -31,7 +33,7 @@ Below is a detailed description of each folder and its content:
    This folder contains the robot's global electronic schematics, detailing the most relevant connections, power distribution diagrams, and the main circuits integrating sensors, actuators, and controllers. These schematics are divided into three sections: lower (power stage), middle (movement stage), and upper (processing and perception stage). The folder also includes signal connections between stages, energy budget calculations, and backup battery capacity.
 
 6. **Images**  
-   This folder compiles representative images of the robot, such as photos of the final assembly, explanatory diagrams, and important graphs illustrating the robot's functionalities and system integration. It also includes screenshots of the web interface for both horizontal (PC) and vertical (smartphone) formats under normal and alert conditions. Additionally, it contains graphs and tables relevant to understanding the robot's operation. Two images from the Duque12 participation in an event held at the CREA laboratory at Universidad de los Andes with the VASED Foundation are also included, where children provided feedback and opinions about the robots showcased.
+   This folder compiles representative images of the robot, such as photos of the final assembly, explanatory diagrams, and important graphs illustrating the robot's functionalities and system integration. It also includes screenshots of the web interface for both horizontal (PC) and vertical (smartphone) formats under normal and alert conditions. Additionally, it contains graphs and tables relevant to understanding the robot's operation. Two images from the DuqueXII participation in an event held at the CREA laboratory at Universidad de los Andes with the VASED Foundation are also included, where children provided feedback and opinions about the robots showcased.
 
 7. **Mechanical Drawings**  
    This folder contains detailed mechanical drawings of all 3D-printed parts. These drawings include precise measurements and annotations for replicating each robot component. Developed in collaboration with the IMEC consulting office, the designs ensure functionality and ease of manufacturing.
@@ -41,7 +43,7 @@ Below is a detailed description of each folder and its content:
    The training process included downloading datasets for all selected classes, balancing the dataset, resizing images, and normalizing bounding box coordinates. Data augmentation techniques such as brightness-contrast adjustment, Gaussian noise, flipping, and 45° rotation were applied. Each class consists of 5555 images, divided into 80% for training and 20% for validation.
 
 9. **Other Documents**  
-    This folder contains supplementary documents used during project development, including academic information on the state of the art, technical references, and reports documenting various aspects of Duque12’s construction and implementation.
+    This folder contains supplementary documents used during project development, including academic information on the state of the art, technical references, and reports documenting various aspects of DuqueXII’s construction and implementation.
 
 10. **Printed Circuit Boards (PCB)**  
     This folder contains PCB design files created using Altium Designer. It includes schematics and final designs of printed circuits manufactured at the Universidad de los Andes’ Printed Circuit Laboratory.
@@ -62,7 +64,7 @@ These files include the final schematics and PCB designs for the circuits used i
 ---
 
 ## System Integration
-Duque12 comprises various subsystems that work seamlessly together. The Jetson Nano acts as the primary platform for running ROS2 nodes and performing real-time inference with YOLOv8. The Arduino Nano 33 BLE Sense manages sensors and actuators via USB serial communication. The modular configuration ensures that each subsystem operates independently, minimizing interference and enabling efficient and coordinated functionality.
+DuqueXII comprises various subsystems that work seamlessly together. The Jetson Nano acts as the primary platform for running ROS2 nodes and performing real-time inference with YOLOv8. The Arduino Nano 33 BLE Sense manages sensors and actuators via USB serial communication. The modular configuration ensures that each subsystem operates independently, minimizing interference and enabling efficient and coordinated functionality.
 
 ---
 
@@ -72,7 +74,7 @@ Every part of the robot has room for improvement. Mechanically, the design could
 ---
 
 ## Future Work
-The future of Duque12 envisions transitioning from a stationary robot to a mobile one. Implementing a differential mobile platform would enable the robot to actively follow the child, significantly improving monitoring capabilities and risk prevention. Currently, being stationary limits the robot's effectiveness as the child may move out of the camera’s field of view or sensor range. A mobile robot would overcome these limitations, providing more efficient and active care. Future iterations will aim to create a more resilient robot capable of fully achieving its primary objective: mitigating domestic accidents during early childhood.
+The future of DuqueXII envisions transitioning from a stationary robot to a mobile one. Implementing a differential mobile platform would enable the robot to actively follow the child, significantly improving monitoring capabilities and risk prevention. Currently, being stationary limits the robot's effectiveness as the child may move out of the camera’s field of view or sensor range. A mobile robot would overcome these limitations, providing more efficient and active care. Future iterations will aim to create a more resilient robot capable of fully achieving its primary objective: mitigating domestic accidents during early childhood.
 
 ---
 
