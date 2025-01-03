@@ -22,8 +22,9 @@
 7. [Setup](#setup)
 8. [Video](#video)
 9. [Technologies Used](#technologies-used)
-10. [References](#references)
-11. [Copyright Notice](#copyright-notice)
+10. [Acknowledgements](#acknowledgements)
+11. [References](#references)
+12. [Copyright Notice](#copyright-notice)
 
 ---
 
@@ -132,6 +133,16 @@ You can watch a DuqueXII built here:
   <img src="https://e7.pngegg.com/pngimages/194/758/png-clipart-altium-designer-printed-circuit-board-pcb-computer-software-eagle-electronics-animals-thumbnail.png" alt="Altium Designer Logo" width="50">
   <img src="https://img.icons8.com/ios-filled/50/000000/flask.png" alt="Flask Logo" width="50">
 </p>
+
+
+---
+
+
+## Acknowledgements
+
+- To **Dr. David Álvarez Martínez** for access to the AIA laboratory and equipment.  
+- To the **Consultorio IMEC**, led by **Dr. Carlos Francisco Rodríguez Herrera**, for mechanical design guidance.  
+- To the **Printed Circuit Laboratory**, coordinated by **Zulay Villabona Parra** with support from **Alejandro Monroy Ocasiones**, for PCB fabrication assistance.  
 
 
 ---
