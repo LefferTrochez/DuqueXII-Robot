@@ -130,12 +130,13 @@ You can watch a DuqueXII built here:
   <img src="https://img.icons8.com/color/48/python.png" alt="Python Logo" width="50">
   <img src="https://img.icons8.com/color/48/nvidia.png" alt="Jetson Nano Logo" width="50">
   <img src="https://img.icons8.com/color/48/ubuntu.png" alt="Ubuntu Logo" width="50">
-  <img src="https://github.com/ultralytics/assets/raw/main/logo/yolov8-logo.png" alt="YOLO Logo" width="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV Logo" width="50">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ultralytics.com%2Fbrand&psig=AOvVaw1cI-5X8B3G1_dvgiXtQbsZ&ust=1735961227763000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDp1NTN2IoDFQAAAAAdAAAAABAJ" alt="YOLO Logo" width="50">
+  <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black.png" alt="OpenCV Logo" width="50">
   <img src="https://www.arducam.com/wp-content/uploads/2020/12/cropped-Arducam-logo-website-4.png" alt="Arducam Logo" width="100">
   <img src="https://img.icons8.com/color/48/autodesk-fusion-360.png" alt="Fusion 360 Logo" width="50">
-  <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-altium-designer-a-comprehensive-pcb-design-software-for-professionals-logo-color-tal-revivo.png" alt="Altium Designer Logo" width="50">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.klipartz.com%2Fes%2Fsearch%3Fq%3Daltium&psig=AOvVaw1h8zvD62S5Zdp5Gsod1g2D&ust=1735961598796000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiEq4rP2IoDFQAAAAAdAAAAABAE" alt="Altium Designer Logo" width="50">
 </p>
+
 
 ---
 
