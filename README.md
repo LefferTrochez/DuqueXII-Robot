@@ -4,6 +4,29 @@
   <img src="Images/DuqueXII.jpg" alt="DuqueXII Robot" width="400">
 </p>
 
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![ROS2](https://img.shields.io/badge/ROS2-Foxy-blue)
+![Python](https://img.shields.io/badge/python-3.8-blue)
+![License](https://img.shields.io/badge/license-Restricted-red)
+
+---
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Repository Contents](#repository-contents)
+3. [System Integration](#system-integration)
+4. [DuqueXII PCBs](#duquexii-pcbs-printed-circuit-board)
+5. [Improvements](#improvements)
+6. [Future Work](#future-work)
+7. [Setup](#setup)
+8. [Demonstration Video](#demonstration-video)
+9. [Technologies Used](#technologies-used)
+10. [References](#references)
+11. [Copyright Notice](#copyright-notice)
+
+---
+
 ## Introduction
 DuqueXII is a stationary robot designed to prevent domestic accidents during early childhood. This project was developed as a final undergraduate thesis at Universidad de los Andes by the student Leffer Trochez, under the supervision of professors Jorge Alfredo López Jiménez and Nicanor Quijano Silva. The robot combines advanced detection, control, and communication technologies to monitor children's surroundings and ensure their safety. DuqueXII features an Arducam PTZ camera, enabling visual tracking with pan, tilt, and zoom capabilities to optimize risk detection in the environment.
 
@@ -53,7 +76,9 @@ Below is a detailed description of each folder and its content:
 12. **Testing Protocol**  
     This folder contains tables and documents generated during the robot’s testing protocol, designed to evaluate its task effectiveness. It includes detailed results for each functionality, scoring functions used for calculations, and evaluation criteria such as response times and penalties. Testing conditions like lighting, noise, and temperature are also described to ensure replicability. Detailed results and supporting videos are available in their respective folders.
 
-### DuqueXII PCBs (Printed Circuit Board)
+---
+
+## DuqueXII PCBs (Printed Circuit Board)
 
 The designs for the PCBs of DuqueXII are available at the following link:  
 [DuqueXII PCBs](https://uniandes-my.sharepoint.com/:f:/r/personal/l_trochez_uniandes_edu_co/Documents/DuqueXII%20PCBs?csf=1&web=1&e=8YNfZ0)  
@@ -62,18 +87,38 @@ These files include the final schematics and PCB designs for the circuits used i
 
 ---
 
-## System Integration
-DuqueXII comprises various subsystems that work seamlessly together. The Jetson Nano acts as the primary platform for running ROS2 nodes and performing real-time inference with YOLOv8. The Arduino Nano 33 BLE Sense manages sensors and actuators via USB serial communication. The modular configuration ensures that each subsystem operates independently, minimizing interference and enabling efficient and coordinated functionality.
+## Setup
+
+### Requirements
+- ROS2 Foxy
+- Ubuntu 20.04
+- Jetson Nano with JetPack 4.6
+- Arduino IDE 1.8.19
+- Python 3.8
 
 ---
 
-## Improvements
-Every part of the robot has room for improvement. Mechanically, the design could become more modular for easier assembly and maintenance. Additionally, connections between electronic modules could be optimized for greater efficiency and robustness. One key area for improvement is real-time object detection training. A more robust and realistic dataset is required to enhance the model's resilience and ability to identify risk situations in real-life scenarios.
+## Demonstration Video
+
+You can watch a demonstration of DuqueXII in action here:  
+[DuqueXII Demonstration Video](https://uniandes-my.sharepoint.com/:v:/r/personal/l_trochez_uniandes_edu_co/Documents/DuqueXII%20PCBs/Printed%20Circuit%20Boards%20(PCB)/DuqueXII%20Video/DuqueXII%204.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UDaXyQ)
 
 ---
 
-## Future Work
-The future of DuqueXII envisions transitioning from a stationary robot to a mobile one. Implementing a differential mobile platform would enable the robot to actively follow the child, significantly improving monitoring capabilities and risk prevention. Currently, being stationary limits the robot's effectiveness as the child may move out of the camera’s field of view or sensor range. A mobile robot would overcome these limitations, providing more efficient and active care. Future iterations will aim to create a more resilient robot capable of fully achieving its primary objective: mitigating domestic accidents during early childhood.
+## Technologies Used
+
+![ROS2](https://img.icons8.com/color/48/ros.png)
+![Arduino](https://img.icons8.com/color/48/arduino.png)
+![Python](https://img.icons8.com/color/48/python.png)
+![Jetson Nano](https://img.icons8.com/color/48/nvidia.png)
+
+---
+
+## References
+
+1. ROS2 Documentation: [https://docs.ros.org/en/](https://docs.ros.org/en/)
+2. Arduino Nano 33 BLE Sense: [https://www.arduino.cc/](https://www.arduino.cc/)
+3. YOLOv8 by Ultralytics: [https://github.com/ultralytics/yolov8](https://github.com/ultralytics/yolov8)
 
 ---
 
