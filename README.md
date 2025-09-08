@@ -1,4 +1,4 @@
-# DuqueXII - Robot for Preventing Domestic Accidents
+# DuqueXII - Robot for Preventing Domestic Accidents in Early Childhood
 
 <p align="center">
   <img src="Images/DuqueXII.jpg" alt="DuqueXII Robot" width="400">
