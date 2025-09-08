@@ -22,9 +22,7 @@
 7. [Setup](#setup)
 8. [Video](#video)
 9. [Technologies Used](#technologies-used)
-10. [Acknowledgements](#acknowledgements)
-11. [References](#references)
-12. [Copyright Notice](#copyright-notice)
+10. [Copyright Notice](#copyright-notice)
 
 ---
 
