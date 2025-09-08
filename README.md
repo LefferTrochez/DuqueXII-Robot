@@ -43,7 +43,7 @@ Below is a detailed description of each folder and its content:
    This folder contains the complete CAD model of the robot, designed using Fusion 360. The design includes all individual components and assemblies necessary to understand and visualize the robot's basic movements. The model was reviewed in collaboration with the Consultorio IMEC at Universidad de los Andes' Mechanical Engineering Department, where adjustments were made to ensure the viability and functionality of the movement mechanisms, along with recommendations for 3D printing.
 
 2. **Code**  
-   This folder contains the final code necessary for the robot's operation. It includes the code for the eight ROS2 nodes running on the Jetson Nano with Ubuntu 20, responsible for integrating and managing data from sensors and actuators. It also includes the Arduino Nano 33 BLE Sense code, which controls peripheral components and the Flask-based web page code that allows user interaction with the robot. Additionally, the folder includes the YDLidar graph, where blue detections correspond to the robot's left side and red detections to the right. Undetected zones show no data, but the robot can gather full environmental information by rotating 360 degrees.
+   This folder contains the final code necessary for the robot's operation. It includes the code for the eight ROS2 nodes running on the NVIDIA Jetson Nano with Ubuntu 20.04 LTS, responsible for integrating and managing data from sensors and actuators. It also includes the Arduino Nano 33 BLE Sense code, which controls peripheral components and the Flask-based web page code that allows user interaction with the robot. Additionally, the folder includes the YDLidar graph, where blue detections correspond to the robot's left side and red detections to the right. Undetected zones show no data, but the robot can gather full environmental information by rotating 360 degrees.
 
 3. **Consultorio IMEC**  
    This folder contains documents related to the advisory process provided by the Consultorio IMEC. It includes the review process of the initial CAD design, corrections to movement mechanisms to ensure successful operation and final recommendations for 3D printing, such as configuration parameters and component adjustments. All of this is summarized in a final report provided by the consultant.
@@ -63,13 +63,10 @@ Below is a detailed description of each folder and its content:
 8. **Neural Network Training**  
    This folder contains the results and files from neural network training used for real-time object detection via YOLOv8. The classes include child, marble, knife, cat, coin, outlet, medication, dog, adult, and scissors. The results of the mAP50-95 metric are included, which evaluates model performance across multiple precision levels (IoU 50% to 95%). The training process included downloading datasets for all selected classes, balancing the dataset, resizing images and normalizing bounding box coordinates. Data augmentation techniques such as brightness-contrast adjustment, Gaussian noise, flipping, and 45° rotation were applied. Each class consists of 5555 images, divided into 80% for training and 20% for validation.
 
-9. **Other Documents**  
-    This folder contains supplementary documents used during project development, including academic information on the state of the art, technical references and reports documenting various aspects of DuqueXII’s construction and implementation.
-
-10. **Support Videos**  
+9. **Support Videos**  
     This folder includes demonstration videos of the robot’s functionalities, such as flame detection, noise detection, obstacle detection, open doors and windows detection, high ambient temperature, body temperature, air quality, IR and power LEDs activation, child tracking, dangerous object detection, head movements, camera zoom, night vision, web page functionality and earthquake detection.
 
-11. **Testing Protocol**  
+10. **Testing Protocol**  
     This folder contains tables and documents generated during the robot’s testing protocol, designed to evaluate its task effectiveness. It includes detailed results for each functionality, scoring functions used for calculations, and evaluation criteria such as response times and penalties. Testing conditions like lighting, noise and temperature are also described to ensure replicability. Detailed results and supporting videos are available in their respective folders.
 
 ---
@@ -85,7 +82,7 @@ These files include the final schematics and PCB designs for the circuits used i
 
 
 ## System Integration
-DuqueXII comprises various subsystems that work seamlessly together. The Jetson Nano acts as the primary platform for running ROS2 nodes and performing real-time inference with YOLOv8. The Arduino Nano 33 BLE Sense manages sensors and actuators via USB serial communication. The modular configuration ensures that each subsystem operates independently, minimizing interference and enabling efficient and coordinated functionality.
+DuqueXII comprises various subsystems that work seamlessly together. The NVIDIA Jetson Nano acts as the primary platform for running ROS2 nodes and performing real-time inference with YOLOv8. The Arduino Nano 33 BLE Sense manages sensors and actuators via USB serial communication. The modular configuration ensures that each subsystem operates independently, minimizing interference and enabling efficient and coordinated functionality.
 
 ---
 
@@ -137,33 +134,6 @@ You can watch a DuqueXII built here:
 
 ---
 
-
-## Acknowledgements
-
-- To **Dr. David Álvarez Martínez** for access to the AIA laboratory and equipment.  
-- To the **Consultorio IMEC**, led by **Dr. Carlos Francisco Rodríguez Herrera**, for mechanical design guidance.  
-- To the **Printed Circuit Laboratory** of the Universidad de los Andes, coordinated by **Zulay Villabona Parra** with support from **Alejandro Monroy Ocasiones**, for PCB fabrication assistance.  
-
-
----
-
-## References
-
-1. ROS2 Documentation: [https://docs.ros.org/en/](https://docs.ros.org/en/)
-2. Arduino Nano 33 BLE Sense: [https://www.arduino.cc/](https://www.arduino.cc/)
-3. YOLOv8 by Ultralytics: [https://github.com/ultralytics/yolov8](https://github.com/ultralytics/yolov8)
-4. Python Official Documentation: [https://www.python.org/doc/](https://www.python.org/doc/)
-5. NVIDIA Jetson Nano Developer Kit: [https://developer.nvidia.com/embedded/jetson-nano-developer-kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
-6. Ubuntu Official Website: [https://ubuntu.com/](https://ubuntu.com/)
-7. OpenCV Official Documentation: [https://opencv.org/](https://opencv.org/)
-8. Arducam Cameras and Modules: [https://www.arducam.com/](https://www.arducam.com/)
-9. Autodesk Fusion 360: [https://www.autodesk.com/products/fusion-360/overview](https://www.autodesk.com/products/fusion-360/overview)
-10. Altium Designer Official Website: [https://www.altium.com/](https://www.altium.com/)
-11. Flask Official Documentation: [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
-12. Consultorio IMEC, Universidad de los Andes: [https://mecanica.uniandes.edu.co/es/departamento/consultorio](https://mecanica.uniandes.edu.co/es/departamento/consultorio)
-13. Printed Circuit Laboratory, Universidad de los Andes: [https://electricayelectronica.uniandes.edu.co/es/laboratorios/servicios-academicos-y-especializados/nuestros-servicios/servicio-de-fabricaci%C3%B3n-de-circuitos-impresos](https://electricayelectronica.uniandes.edu.co/es/laboratorios/servicios-academicos-y-especializados/nuestros-servicios/servicio-de-fabricaci%C3%B3n-de-circuitos-impresos)
-
----
 
 ## Copyright Notice
 
