@@ -31,7 +31,7 @@
 ## Introduction
 DuqueXII is a stationary robot designed to prevent domestic accidents during early childhood. This project was developed as a final undergraduate thesis at Universidad de los Andes by the student Leffer Trochez, under the supervision of professors Jorge Alfredo López Jiménez and Nicanor Quijano Silva. The robot combines advanced detection, control and communication technologies to monitor children's surroundings and ensure their safety. DuqueXII features an Arducam PTZ camera, enabling visual tracking with pan, tilt and zoom capabilities to optimize risk detection in the environment.
 
-DuqueXII integrates multiple sensors, cameras and actuators and uses platforms such as ROS2 for data management, Flask for the web interface and I2C for communication with the camera. The Jetson Nano and Arduino Nano 33 BLE Sense work together via USB serial to execute the robot’s functionalities. This repository complements the academic article and demonstrates the process and results obtained. It is important to note that this version of the robot represents a first iteration, leaving room for improvements to be implemented in future versions.
+DuqueXII integrates multiple sensors, cameras and actuators and uses platforms such as ROS2 for data management, Flask for the web interface and I2C for communication with the camera. The NVIDIA Jetson Nano and Arduino Nano 33 BLE Sense work together via USB serial to execute the robot’s functionalities. This repository complements the academic article and demonstrates the process and results obtained. It is important to note that this version of the robot represents a first iteration, leaving room for improvements to be implemented in future versions.
 
 ---
 
