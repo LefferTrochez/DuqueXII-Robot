@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/Python-3.8-blue" alt="Python 3.8" valign="middle">
   <img src="https://img.shields.io/badge/Jetson-Nano-green" alt="Jetson Nano" valign="middle">
   <img src="https://img.shields.io/badge/Arduino-Nano%2033%20BLE%20Sense-teal" alt="Arduino Nano 33 BLE Sense" valign="middle">
+  <a href="https://doi.org/10.5281/zenodo.20881362"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20881362.svg" alt="DOI" valign="middle"></a>
   <img src="https://img.shields.io/badge/license-MIT-red" alt="MIT License" valign="middle">
 </p>
 
@@ -28,7 +29,8 @@
 9. [Future Work](#future-work)
 10. [Technologies Used](#technologies-used)
 11. [Contact](#contact)
-12. [License](#license)
+12. [Citation](#citation)
+13. [License](#license)
 
 ---
 
@@ -152,27 +154,17 @@ Future versions of DuqueXII could transition from a stationary platform to a mob
 ## Technologies Used
 
 <p align="center">
-  <img src="https://roboticsbackend.com/wp-content/uploads/2022/04/ros_logo.png" alt="ROS2 Logo" height="42" valign="middle">
-  &nbsp;&nbsp;
-  <img src="https://img.icons8.com/color/48/arduino.png" alt="Arduino Logo" height="42" valign="middle">
-  &nbsp;&nbsp;
-  <img src="https://img.icons8.com/color/48/python.png" alt="Python Logo" height="42" valign="middle">
-  &nbsp;&nbsp;
-  <img src="https://img.icons8.com/color/48/nvidia.png" alt="Jetson Nano Logo" height="42" valign="middle">
-  &nbsp;&nbsp;
-  <img src="https://img.icons8.com/color/48/ubuntu.png" alt="Ubuntu Logo" height="42" valign="middle">
-  &nbsp;&nbsp;
-  <img src="https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64994922cf2a6385a4bf4489_UltralyticsYOLO_mark_blue.svg" alt="YOLO Logo" height="42" valign="middle">
-  &nbsp;&nbsp;
-  <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black.png" alt="OpenCV Logo" height="42" valign="middle">
-  &nbsp;&nbsp;
-  <img src="https://www.arducam.com/wp-content/uploads/2023/07/logo-4.png" alt="Arducam Logo" height="42" valign="middle">
-  &nbsp;&nbsp;
-  <img src="https://img.icons8.com/color/48/autodesk-fusion-360.png" alt="Fusion 360 Logo" height="42" valign="middle">
-  &nbsp;&nbsp;
-  <img src="https://e7.pngegg.com/pngimages/194/758/png-clipart-altium-designer-printed-circuit-board-pcb-computer-software-eagle-electronics-animals-thumbnail.png" alt="Altium Designer Logo" height="42" valign="middle">
-  &nbsp;&nbsp;
-  <img src="https://img.icons8.com/ios-filled/50/000000/flask.png" alt="Flask Logo" height="42" valign="middle">
+  <img src="https://roboticsbackend.com/wp-content/uploads/2022/04/ros_logo.png" alt="ROS2 Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://img.icons8.com/color/48/arduino.png" alt="Arduino Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://img.icons8.com/color/48/python.png" alt="Python Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://img.icons8.com/color/48/nvidia.png" alt="Jetson Nano Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://img.icons8.com/color/48/ubuntu.png" alt="Ubuntu Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64994922cf2a6385a4bf4489_UltralyticsYOLO_mark_blue.svg" alt="YOLO Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black.png" alt="OpenCV Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://www.arducam.com/wp-content/uploads/2023/07/logo-4.png" alt="Arducam Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://img.icons8.com/color/48/autodesk-fusion-360.png" alt="Fusion 360 Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://e7.pngegg.com/pngimages/194/758/png-clipart-altium-designer-printed-circuit-board-pcb-computer-software-eagle-electronics-animals-thumbnail.png" alt="Altium Designer Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://img.icons8.com/ios-filled/50/000000/flask.png" alt="Flask Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
 </p>
 
 ---
@@ -196,6 +188,35 @@ Bogotá D.C., Colombia
   &nbsp;
   <a href="https://orcid.org/0009-0002-5321-7652"><img src="Images/ORCID.png" alt="ORCID" height="28" valign="middle"></a>
 </p>
+
+---
+
+## Citation
+
+If you use this repository in academic work, research projects, technical reports, or derivative software developments, please cite the archived Zenodo release associated with this project.
+
+This repository has been archived in Zenodo and assigned a DOI for versioned citation:
+
+[https://doi.org/10.5281/zenodo.20881362](https://doi.org/10.5281/zenodo.20881362)
+
+### How to cite
+
+The repository can be cited as software in the following format:
+
+```bibtex
+@software{trochez2026duquexii,
+  author       = {Trochez, Leffer and López-Jiménez, Jorge Alfredo and Quijano, Nicanor},
+  title        = {DuqueXII: Stationary Robot for Domestic Child-Safety Monitoring},
+  year         = {2026},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.20881362},
+  url          = {https://doi.org/10.5281/zenodo.20881362}
+}
+```
+
+### Citation note
+
+Zenodo archives public releases of this repository and assigns a persistent DOI for version-specific citation.
 
 ---
 
