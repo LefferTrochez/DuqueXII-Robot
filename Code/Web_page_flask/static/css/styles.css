@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white; /* Fondo blanco */
+    overflow: hidden; /* Elimina el scroll */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura fija */
+    width: 100vw; /* Ancho fijo */
+    color: black; /* Texto negro */
+}
+
+/* Imagen del Robot en la esquina superior izquierda con texto encima */
+.logo-section {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    text-align: center; /* Centrar el texto encima de la imagen */
+}
+
+.logo-section h1 {
+    font-size: 7em; /* Mantén el tamaño del texto */
+    margin: 0; /* Elimina márgenes adicionales */
+    color: black; /* Color del texto */
+    text-align: left; /* Cambia la alineación hacia la izquierda */
+    position: absolute; /* Permite moverlo independientemente */
+    top: -80px; /* Sube el título más cerca del borde superior */
+    left: 70px; /* Mueve el título hacia la izquierda */
+}
+
+
+
+.logo-section img {
+    width: 430px; /* Mantén el tamaño de la imagen */
+    height: auto; /* Mantiene proporción */
+    margin-top: 70px; /* Reduce este valor para acercar la imagen al nombre */
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column; /* Cambiar de row a column */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 20px; /* Espaciado entre las secciones */
+}
+
+/* Sección de Video */
+.video-section {
+    position: absolute;
+    top: 820px;
+    right: -245px; /* Mueve el video a la esquina superior derecha */
+}
+
+.video-section img {
+    width: 600px;
+    height: auto;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 15px; /* Bordes redondeados */
+    /* transform: rotate(180deg); */ /* Removido porque no es necesario para la imagen */
+}
+
+
+
+/* Sección de Valores de Sensores */
+.sensor-values {
+    position: absolute; /* Mantener posición absoluta */
+    top: 540px; /* Posición desde el borde superior */
+    left: 20px; /* Posición desde el borde izquierdo */
+    width: 210px; /* Reduce el ancho del recuadro                                  (modificar en caso de que se dañe el recuadro)*/
+    height: 150px; /* Altura automática */
+    text-align: left;
+    line-height: 0.8; /* Reduce el espacio entre líneas */
+    padding-top: 1px; /* Reducir espacio superior */
+    padding-right: 15px; /* Mantén espacio derecho */
+    padding-bottom: 15px; /* Mantén espacio inferior */
+    padding-left: 15px; /* Mantén espacio izquierdo */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Asegúrate de que el contenido no esté limitado */
+}
+
+
+
+
+/* Mensaje de advertencia */
+.warning-section {
+    position: absolute;
+    top: 730px;
+    right: -240px;
+    width: 550px;
+    height: 60px;
+    padding-top: 2px; /* Reducir espacio superior */
+    padding-right: 20px; /* Mantén espacio derecho */
+    padding-bottom: 2px; /* Mantén espacio inferior */
+    padding-left: 20px; /* Mantén espacio izquierdo */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Asegúrate de que el contenido no esté limitado */
+    display: flex; /* Usar Flexbox para alinear título y texto */
+    align-items: center; /* Mantén alineado verticalmente el contenido */
+    gap: 20px; /* Espaciado entre título y mensaje */
+}
+
+/* Ajuste del título */
+.warning-section h3 {
+    font-size: 1.3em; /* Reducir tamaño del título */
+    margin: 0; /* Eliminar márgenes */
+    text-align: left; /* Alineación izquierda */
+    color: black; /* Color negro para el título */
+}
+
+.warning-section p {
+    font-size: 1.3em; /* Tamaño del texto */
+    margin: 0; /* Sin margen */
+    color: #000000; /* Texto negro */
+    text-align: left; /* Alineación izquierda */
+}
+
+
+/* Botones de Movimiento */
+.movement-buttons {
+    position: absolute;
+    bottom: 170px; /* Posiciona los botones en la parte inferior */
+    left: 460px; /* Posiciona los botones en la esquina inferior izquierda */
+    display: flex;
+    flex-direction: column; /* Mantener las flechas en una columna */
+    align-items: center;
+    gap: 10px; /* Espaciado entre las filas de botones */
+}
+
+/* Fila central de botones de movimiento */
+.middle-row {
+    display: flex;
+    gap: 10px; /* Espaciado entre las flechas izquierda, stop y derecha */
+}
+
+/* Botones de Modo (mismos estilos que antes, ajustados para íconos) */
+.mode-buttons {
+    position: absolute;
+    bottom: 20px; /* Alineado a la parte inferior */
+    left: 300px; /* Separado de los botones de movimiento */
+    display: flex;
+    flex-direction: row; /* Disposición en fila */
+    gap: 10px; /* Espaciado entre botones */
+}
+
+/* Ajuste de los botones */
+.mode-buttons button {
+    width: 120px; /* Ancho del botón */
+    height: 120px; /* Alto del botón */
+    background-color: transparent; /* Fondo transparente para resaltar el ícono */
+    border: none; /* Sin bordes */
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Estilo de las imágenes dentro de los botones */
+.mode-buttons button img {
+    width: 100%; /* La imagen ocupa todo el botón */
+    height: 100%;
+    object-fit: contain; /* Asegura que la imagen se ajuste al botón */
+    border-radius: 8px; /* Mantiene el diseño redondeado */
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #B0AFAB; /* Mismo color que los recuadros */
+    color: #000000; /* Texto negro */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer;
+    width: 60px; /* Mantener tamaño actual */
+    height: 60px; /* Mantener tamaño actual */
+    font-size: 24px; /* Tamaño de la flecha */
+    font-weight: bold; /* Negrita */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Efecto de grosor */
+}
+
+button:hover {
+    background-color: #9F9E9A; /* Color ligeramente más oscuro para hover */
+}
+
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 0.9em;
+    color: black;
+}
+
+
+/* Imagen centrada en la página web */
+.centered-icon {
+    position: absolute; /* Permite mover la imagen libremente */
+    top: 160px; /* Centrado verticalmente */
+    left: 500px; /* Centrado horizontalmente */
+    width: 100px; /* Ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Ajustes de la imagen dentro del contenedor */
+.centered-icon img {
+    width: 150px; /* La imagen ocupará todo el ancho del contenedor */
+    height: auto; /* Mantiene proporción */
+    border-radius: 8px; /* Si quieres bordes redondeados */
+}

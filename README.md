@@ -1,115 +1,160 @@
-# DuqueXII - Robot for Preventing Domestic Accidents in Early Childhood
+# DuqueXII - Stationary Robot for Domestic Child-Safety Monitoring
 
 <p align="center">
-  <img src="Images/DuqueXII.jpg" alt="DuqueXII Robot" width="400">
+  <img src="Images/DuqueXII%20logo.png" alt="DuqueXII Robot" width="350">
 </p>
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![ROS2](https://img.shields.io/badge/ROS2-Foxy-blue)
-![Python](https://img.shields.io/badge/python-3.8-blue)
-![License](https://img.shields.io/badge/license-Restricted-red)
+<p align="center">
+  <img src="https://img.shields.io/badge/status-prototype-blue" alt="Prototype Status" valign="middle">
+  <img src="https://img.shields.io/badge/ROS2-Foxy-blue" alt="ROS 2 Foxy" valign="middle">
+  <img src="https://img.shields.io/badge/Python-3.8-blue" alt="Python 3.8" valign="middle">
+  <img src="https://img.shields.io/badge/Jetson-Nano-green" alt="Jetson Nano" valign="middle">
+  <img src="https://img.shields.io/badge/Arduino-Nano%2033%20BLE%20Sense-teal" alt="Arduino Nano 33 BLE Sense" valign="middle">
+  <img src="https://img.shields.io/badge/license-MIT-red" alt="MIT License" valign="middle">
+</p>
 
 ---
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Repository Contents](#repository-contents)
-3. [DuqueXII PCBs](#duquexii-pcbs-printed-circuit-board)
-4. [System Integration](#system-integration)
-5. [Improvements](#improvements)
-6. [Future Work](#future-work)
-7. [Setup](#setup)
-8. [Video](#video)
-9. [Technologies Used](#technologies-used)
-10. [Copyright Notice](#copyright-notice)
+2. [Robot Overview](#robot-overview)
+3. [Repository Structure](#repository-structure)
+4. [Printed Circuit Boards](#printed-circuit-boards)
+5. [System Integration](#system-integration)
+6. [Setup](#setup)
+7. [Demonstration Video](#demonstration-video)
+8. [Improvements](#improvements)
+9. [Future Work](#future-work)
+10. [Technologies Used](#technologies-used)
+11. [Contact](#contact)
+12. [License](#license)
 
 ---
 
 ## Introduction
-DuqueXII is a stationary robot designed to prevent domestic accidents during early childhood. This project was developed as a final undergraduate thesis at Universidad de los Andes by the student Leffer Trochez, under the supervision of professors Jorge Alfredo López Jiménez and Nicanor Quijano Silva. The robot combines advanced detection, control and communication technologies to monitor children's surroundings and ensure their safety. DuqueXII features an Arducam PTZ camera, enabling visual tracking with pan, tilt and zoom capabilities to optimize risk detection in the environment.
 
-DuqueXII integrates multiple sensors, cameras and actuators and uses platforms such as ROS2 for data management, Flask for the web interface and I2C for communication with the camera. The NVIDIA Jetson Nano and Arduino Nano 33 BLE Sense work together via USB serial to execute the robot’s functionalities. This repository complements the academic article and demonstrates the process and results obtained. It is important to note that this version of the robot represents a first iteration, leaving room for improvements to be implemented in future versions.
+DuqueXII is a stationary robotic prototype designed to support the monitoring of domestic risk situations during early childhood. The robot integrates sensing, visual perception, actuation, communication, and a web-based interface to detect and report potentially unsafe conditions in the surrounding environment.
 
----
+The prototype was developed as a final undergraduate thesis project at Universidad de los Andes by Leffer Trochez, under the supervision of Professors Jorge Alfredo López Jiménez and Nicanor Quijano Silva. DuqueXII uses an Arducam PTZ camera for visual monitoring and camera orientation, together with environmental sensors and embedded processing to coordinate the robot's main functions.
 
-## Repository Contents
+This repository documents the robot prototype, its main hardware and software components, visual materials, reference code, mechanical resources, electronic design files, and demonstration media.
 
-Below is a detailed description of each folder and its content:
-
-1. **3D Design**  
-   This folder contains the complete CAD model of the robot, designed using Fusion 360. The design includes all individual components and assemblies necessary to understand and visualize the robot's basic movements. The model was reviewed in collaboration with the Consultorio IMEC at Universidad de los Andes' Mechanical Engineering Department, where adjustments were made to ensure the viability and functionality of the movement mechanisms, along with recommendations for 3D printing.
-
-2. **Code**  
-   This folder contains the final code necessary for the robot's operation. It includes the code for the eight ROS2 nodes running on the NVIDIA Jetson Nano with Ubuntu 20.04 LTS, responsible for integrating and managing data from sensors and actuators. It also includes the Arduino Nano 33 BLE Sense code, which controls peripheral components and the Flask-based web page code that allows user interaction with the robot. Additionally, the folder includes the YDLidar graph, where blue detections correspond to the robot's left side and red detections to the right. Undetected zones show no data, but the robot can gather full environmental information by rotating 360 degrees.
-
-3. **Consultorio IMEC**  
-   This folder contains documents related to the advisory process provided by the Consultorio IMEC. It includes the review process of the initial CAD design, corrections to movement mechanisms to ensure successful operation and final recommendations for 3D printing, such as configuration parameters and component adjustments. All of this is summarized in a final report provided by the consultant.
-
-4. **Costs**  
-   This folder includes a summary of the overall costs for building the robot, estimated as of December 2024. It provides an approximate breakdown of expenses related to mechanical and electronic components and the manufacturing process. These costs help assess the investment needed to replicate the project.
-
-5. **Electronic Schematics**  
-   This folder contains the robot's global electronic schematics, detailing the most relevant connections, power distribution diagrams and the main circuits integrating sensors, actuators and controllers. These schematics are divided into three sections: lower (power stage), middle (movement stage), and upper (processing and perception stage). The folder also includes signal connections between stages, energy budget calculations and backup battery capacity.
-
-6. **Images**  
-   This folder compiles representative images of the robot, such as photos of the final assembly, explanatory diagrams and important graphs illustrating the robot's functionalities and system integration. It also includes screenshots of the web interface for both horizontal (PC) and vertical (smartphone) formats under normal and alert conditions. Additionally, it contains graphs and tables relevant to understanding the robot's operation. Two images from the DuqueXII participation in an event held at the CREA laboratory at Universidad de los Andes with the VASED Foundation are also included, where children provided feedback and opinions about the robots showcased.
-
-7. **Mechanical Drawings**  
-   This folder contains detailed mechanical drawings of all 3D-printed parts. These drawings include precise measurements and annotations for replicating each robot component. Developed in collaboration with the IMEC consulting office, the designs ensure functionality and ease of manufacturing.
-
-8. **Neural Network Training**  
-   This folder contains the results and files from neural network training used for real-time object detection via YOLOv8. The classes include child, marble, knife, cat, coin, outlet, medication, dog, adult, and scissors. The results of the mAP50-95 metric are included, which evaluates model performance across multiple precision levels (IoU 50% to 95%). The training process included downloading datasets for all selected classes, balancing the dataset, resizing images and normalizing bounding box coordinates. Data augmentation techniques such as brightness-contrast adjustment, Gaussian noise, flipping, and 45° rotation were applied. Each class consists of 5555 images, divided into 80% for training and 20% for validation.
-
-9. **Support Videos**  
-    This folder includes demonstration videos of the robot’s functionalities, such as flame detection, noise detection, obstacle detection, open doors and windows detection, high ambient temperature, body temperature, air quality, IR and power LEDs activation, child tracking, dangerous object detection, head movements, camera zoom, night vision, web page functionality and earthquake detection.
-
-10. **Testing Protocol**  
-    This folder contains tables and documents generated during the robot’s testing protocol, designed to evaluate its task effectiveness. It includes detailed results for each functionality, scoring functions used for calculations, and evaluation criteria such as response times and penalties. Testing conditions like lighting, noise and temperature are also described to ensure replicability. Detailed results and supporting videos are available in their respective folders.
+> **Note**  
+> The code available in this repository corresponds to a previous development/reference version of DuqueXII. Due to the loss of the original Jetson Nano microSD card containing the final deployment environment, the latest operational code could not be fully recovered. The available code is preserved as a technical reference for understanding the robot architecture, ROS 2 integration, sensor management, perception modules, and web interface. It should not be interpreted as a complete plug-and-play deployment package.
 
 ---
 
-## DuqueXII PCBs (Printed Circuit Board)
+## Robot Overview
 
-The designs for the PCBs of DuqueXII are available at the following link:  
-[DuqueXII PCBs](https://mega.nz/folder/jAYnmKTD#5Ih3JERNvTSeVLhx3qoRsw)  
+DuqueXII combines multiple hardware and software modules within a stationary robotic platform. Its main components include:
 
-These files include the final schematics and PCB designs for the circuits used in the robot. They were manufactured at the Printed Circuit Laboratory of the Universidad de los Andes. Unfortunately, due to their large file sizes, it was not possible to upload them to this GitHub repository.
+- **NVIDIA Jetson Nano:** main processing unit for ROS 2 nodes and visual perception.
+- **Arduino Nano 33 BLE Sense:** peripheral controller for selected sensors and actuators.
+- **Arducam PTZ camera:** visual monitoring with pan, tilt, and zoom capabilities.
+- **YOLOv8-based perception:** object detection for selected domestic risk-related classes.
+- **Environmental sensing:** monitoring of selected ambient and safety-related variables.
+- **Flask web interface:** visual display of robot status, sensor information, and alert messages.
+- **ROS 2 communication:** modular organization of software processes and data exchange.
+
+The contribution of DuqueXII as a robot is the integration of these components into a documented child-safety monitoring prototype that connects perception, sensing, actuation, and user interaction within a single robotic system.
 
 ---
 
+## Repository Structure
+
+The repository is organized as follows:
+
+```text
+.
+├── 3D Design/                         # CAD model of the robot
+├── Code/                              # Reference code for ROS 2 nodes, Arduino, perception, and web interface
+│   └── Web_page_flask/                # Flask-based web interface resources
+├── Electronic schematics/             # Main electronic schematics and connection diagrams
+├── Images/                            # Robot images, visual assets, icons, interface screenshots, and demo media
+├── Mechanical drawings/               # Mechanical drawings of 3D-printed parts
+├── Neural network training/           # YOLOv8 training resources and related materials
+├── Support videos/                    # Demonstration videos of selected robot functions
+├── Printed Circuit Boards (PCB).zip   # PCB design files and related manufacturing resources
+└── README.md                          # Main project documentation
+```
+
+Brief description of the main repository contents:
+
+- `3D Design/` contains the CAD model of the robot.
+- `Code/` contains reference software components for the robot, including ROS 2 scripts, Arduino code, perception-related files, and the Flask web interface.
+- `Electronic schematics/` contains electronic diagrams, connections, and power-related information.
+- `Images/` contains robot photographs, interface screenshots, icons, diagrams, and media used in the README.
+- `Mechanical drawings/` contains drawings and dimensions of mechanical parts.
+- `Neural network training/` contains object-detection training resources for selected classes such as child, knife, scissors, coin, outlet, medication, adult, and other related categories.
+- `Support videos/` contains short demonstrations of selected robot functions.
+- `Printed Circuit Boards (PCB).zip` contains the PCB design files associated with the robot electronics.
+
+---
+
+## Printed Circuit Boards
+
+The PCB resources for DuqueXII are included in this repository as:
+
+```text
+Printed Circuit Boards (PCB).zip
+```
+
+This compressed file contains PCB-related design resources for the circuits used in the robot. The boards were manufactured at the Printed Circuit Laboratory of Universidad de los Andes.
+
+---
 
 ## System Integration
-DuqueXII comprises various subsystems that work seamlessly together. The NVIDIA Jetson Nano acts as the primary platform for running ROS2 nodes and performing real-time inference with YOLOv8. The Arduino Nano 33 BLE Sense manages sensors and actuators via USB serial communication. The modular configuration ensures that each subsystem operates independently, minimizing interference and enabling efficient and coordinated functionality.
+
+DuqueXII is organized around a modular hardware/software structure. The NVIDIA Jetson Nano acts as the main processing platform for ROS 2 execution and real-time perception, while the Arduino Nano 33 BLE Sense manages selected peripheral sensing and actuation tasks through serial communication.
+
+The robot integrates camera control, object detection, environmental sensing, actuator commands, and web-based visualization. This organization allows each subsystem to remain relatively independent while contributing to the overall behavior of the robotic prototype.
 
 ---
-
-## Improvements
-Every part of the robot has room for improvement. Mechanically, the design could become more modular for easier assembly and maintenance. Additionally, connections between electronic modules could be optimized for greater efficiency and robustness. One key area for improvement is real-time object detection training. A more robust and realistic dataset is required to enhance the model's resilience and ability to identify risk situations in real-life scenarios.
-
----
-
-## Future Work
-The future of DuqueXII envisions transitioning from a stationary robot to a mobile one. Implementing a differential mobile platform would enable the robot to actively follow the child, significantly improving monitoring capabilities and risk prevention. Currently, being stationary limits the robot's effectiveness as the child may move out of the camera’s field of view or sensor range. A mobile robot would overcome these limitations, providing more efficient and active care. Future iterations will aim to create a more resilient robot capable of fully achieving its primary objective: mitigating domestic accidents during early childhood.
-
----
-
 
 ## Setup
 
 ### Requirements
-- ROS2 Foxy
+
+The original development environment used the following main tools and platforms:
+
+- ROS 2 Foxy
 - Ubuntu 20.04
-- Jetson Nano with JetPack 4.6
+- NVIDIA Jetson Nano with JetPack 4.6
 - Arduino IDE 2.3.4
 - Python 3.8
+- Flask
+- OpenCV
+- YOLOv8
+
+> **Important**  
+> The current repository should be treated as a technical reference. Since the final Jetson Nano deployment environment was not fully recovered, additional configuration, dependency installation, and code adaptation may be required before running the robot.
 
 ---
 
-## Video
+## Demonstration Video
 
-You can watch a DuqueXII built here:  
-[DuqueXII Video](https://www.youtube.com/shorts/vIDAAq_-fBI)
+A short DuqueXII demonstration video is included in the `Images/` folder.
+
+<p align="center">
+  <video src="Images/DuqueXII%204.mp4" controls width="700"></video>
+</p>
+
+If the video does not render directly in GitHub, open it from the repository using the following link:
+
+[Open DuqueXII demonstration video](Images/DuqueXII%204.mp4)
+
+---
+
+## Improvements
+
+DuqueXII is a first functional prototype, and several aspects can be improved in future versions. Mechanically, the structure could become more modular to simplify assembly, maintenance, and component replacement. Electronically, the wiring and module connections could be optimized for robustness and easier troubleshooting. The perception module could also benefit from a larger and more realistic dataset to improve behavior under diverse domestic conditions.
+
+---
+
+## Future Work
+
+Future versions of DuqueXII could transition from a stationary platform to a mobile robot. A mobile base would allow the robot to follow the child more actively and reduce limitations caused by camera field of view or sensor range. Additional work could also improve robustness, autonomy, perception reliability, power management, and long-term operation in domestic environments.
 
 ---
 
@@ -129,14 +174,32 @@ You can watch a DuqueXII built here:
   <img src="https://img.icons8.com/ios-filled/50/000000/flask.png" alt="Flask Logo" width="50">
 </p>
 
+---
+
+## Contact
+
+Leffer Trochez <br>
+Electronic Engineer and M.Sc. in Electronic and Computer Engineering  
+Universidad de los Andes  
+Faculty of Engineering  
+Department of Electrical and Electronic Engineering  
+GIAP Research Group  
+Bogotá D.C., Colombia  
+
+<p>
+  <a href="mailto:l.trochez@uniandes.edu.co"><img src="Images/Email.png" alt="Email" height="28" valign="middle"></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/leffer-trochez/"><img src="Images/LinkedIn.png" alt="LinkedIn" height="28" valign="middle"></a>
+  &nbsp;
+  <a href="https://scholar.google.com/citations?user=Ve1E4AEAAAAJ&hl=es&oi=ao"><img src="Images/GoogleScholar.png" alt="Google Scholar" height="28" valign="middle"></a>
+  &nbsp;
+  <a href="https://orcid.org/0009-0002-5321-7652"><img src="Images/ORCID.png" alt="ORCID" height="28" valign="middle"></a>
+</p>
 
 ---
 
+## License
 
-## Copyright Notice
+Copyright (c) 2025 Leffer Trochez.
 
-© 2025 Leffer Trochez. All rights reserved.
-
-This repository is publicly available for educational and consultation purposes only. Any reproduction, redistribution, modification, or commercial use of the content, in whole or in part, is strictly prohibited without explicit written permission from the author.
-
-For inquiries or permissions, please contact: l.trochez@uniandes.edu.co.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full license text.
