@@ -214,10 +214,6 @@ The repository can be cited as software in the following format:
 }
 ```
 
-### Citation note
-
-Zenodo archives public releases of this repository and assigns a persistent DOI for version-specific citation.
-
 ---
 
 ## License
