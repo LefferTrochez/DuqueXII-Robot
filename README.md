@@ -1,9 +1,8 @@
 # DuqueXII - Stationary Robot for Domestic Child-Safety Monitoring
 
 <p align="center">
-  <img src="Images/DuqueXII%20logo.png" alt="DuqueXII Robot" width="350">
+  <img src="Images/Fig_1.jpg" alt="DuqueXII Robot" width="800">
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/status-prototype-blue" alt="Prototype Status" valign="middle">
   <img src="https://img.shields.io/badge/ROS2-Foxy-blue" alt="ROS 2 Foxy" valign="middle">
