@@ -164,7 +164,7 @@ Future versions of DuqueXII could transition from a stationary platform to a mob
   <img src="https://www.arducam.com/wp-content/uploads/2023/07/logo-4.png" alt="Arducam Logo" height="25" style="vertical-align:middle; margin: 0 8px;">
   <img src="https://img.icons8.com/color/48/autodesk-fusion-360.png" alt="Fusion 360 Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
   <img src="https://e7.pngegg.com/pngimages/194/758/png-clipart-altium-designer-printed-circuit-board-pcb-computer-software-eagle-electronics-animals-thumbnail.png" alt="Altium Designer Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
-  <img src="https://img.icons8.com/ios-filled/50/000000/flask.png" alt="Flask Logo" height="42" style="vertical-align:middle; margin: 0 8px;">
+  <img src="https://img.icons8.com/ios-filled/50/000000/flask.png" alt="Flask Logo" height="25" style="vertical-align:middle; margin: 0 8px;">
 </p>
 
 ---
