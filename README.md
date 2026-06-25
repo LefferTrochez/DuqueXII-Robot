@@ -3,6 +3,7 @@
 <p align="center">
   <img src="Images/Fig_1.jpg" alt="DuqueXII Robot" width="400">
 </p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/status-prototype-blue" alt="Prototype Status" valign="middle">
   <img src="https://img.shields.io/badge/ROS2-Foxy-blue" alt="ROS 2 Foxy" valign="middle">
@@ -17,12 +18,12 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Robot Overview](#robot-overview)
-3. [Repository Structure](#repository-structure)
-4. [Printed Circuit Boards](#printed-circuit-boards)
-5. [System Integration](#system-integration)
-6. [Setup](#setup)
-7. [Demonstration Video](#demonstration-video)
+2. [Video](#video)
+3. [Robot Overview](#robot-overview)
+4. [Repository Structure](#repository-structure)
+5. [Printed Circuit Boards](#printed-circuit-boards)
+6. [System Integration](#system-integration)
+7. [Setup](#setup)
 8. [Improvements](#improvements)
 9. [Future Work](#future-work)
 10. [Technologies Used](#technologies-used)
@@ -41,6 +42,14 @@ This repository documents the robot prototype, its main hardware and software co
 
 > **Note**  
 > The code available in this repository corresponds to a previous development/reference version of DuqueXII. Due to the loss of the original Jetson Nano microSD card containing the final deployment environment, the latest operational code could not be fully recovered. The available code is preserved as a technical reference for understanding the robot architecture, ROS 2 integration, sensor management, perception modules, and web interface. It should not be interpreted as a complete plug-and-play deployment package.
+
+---
+
+## Video
+
+The following video provides a short visual overview of the DuqueXII robot prototype.
+
+https://github.com/user-attachments/assets/b600526c-b047-4748-be59-e298e5338e72
 
 ---
 
@@ -66,27 +75,27 @@ The repository is organized as follows:
 
 ```text
 .
-├── 3D Design/                 # CAD model of the robot
+├── 3D_design/                 # CAD model of the robot
 ├── Code/                      # Reference code for ROS 2 nodes, Arduino, perception, and web interface
 │   └── Web_page_flask/        # Flask-based web interface resources
-├── Electronic schematics/     # Main electronic schematics and connection diagrams
-├── Images/                    # Robot images, visual assets, icons, interface screenshots, and demo media
-├── Mechanical drawings/       # Mechanical drawings of 3D-printed parts
-├── Neural network training/   # YOLOv8 training resources and related materials
-├── Support videos/            # Demonstration videos of selected robot functions
+├── Electronic_schematics/     # Main electronic schematics and connection diagrams
+├── Images/                    # Robot images, visual assets, icons, interface screenshots, and media
+├── Mechanical_drawings/       # Mechanical drawings of 3D-printed parts
+├── Neural_network_training/   # YOLOv8 training resources and related materials
+├── Support_videos/            # Videos of selected robot functions
 ├── LICENSE                    # MIT license
 └── README.md                  # Main project documentation
 ```
 
 Brief description of the main repository contents:
 
-- `3D Design/` contains the CAD model of the robot.
+- `3D_design/` contains the CAD model of the robot.
 - `Code/` contains reference software components for the robot, including ROS 2 scripts, Arduino code, perception-related files, and the Flask web interface.
-- `Electronic schematics/` contains electronic diagrams, connections, and power-related information.
+- `Electronic_schematics/` contains electronic diagrams, connections, and power-related information.
 - `Images/` contains robot photographs, interface screenshots, icons, diagrams, and media used in the README.
-- `Mechanical drawings/` contains drawings and dimensions of mechanical parts.
-- `Neural network training/` contains object-detection training resources for selected classes such as child, knife, scissors, coin, outlet, medication, adult, and other related categories.
-- `Support videos/` contains short demonstrations of selected robot functions.
+- `Mechanical_drawings/` contains drawings and dimensions of mechanical parts.
+- `Neural_network_training/` contains object-detection training resources for selected classes such as child, knife, scissors, coin, outlet, medication, adult, and other related categories.
+- `Support_videos/` contains short videos of selected robot functions.
 
 ---
 
@@ -128,14 +137,6 @@ The original development environment used the following main tools and platforms
 
 ---
 
-## Demonstration Video
-
-The following video shows a representative demonstration of the DuqueXII robot prototype and its main monitoring, perception, and alert functionalities.
-
-https://github.com/user-attachments/assets/b600526c-b047-4748-be59-e298e5338e72
-
----
-
 ## Improvements
 
 DuqueXII is a first functional prototype, and several aspects can be improved in future versions. Mechanically, the structure could become more modular to simplify assembly, maintenance, and component replacement. Electronically, the wiring and module connections could be optimized for robustness and easier troubleshooting. The perception module could also benefit from a larger and more realistic dataset to improve behavior under diverse domestic conditions.
@@ -151,17 +152,27 @@ Future versions of DuqueXII could transition from a stationary platform to a mob
 ## Technologies Used
 
 <p align="center">
-  <img src="https://roboticsbackend.com/wp-content/uploads/2022/04/ros_logo.png" alt="ROS2 Logo" width="100" style="vertical-align: -50px"> 
-  <img src="https://img.icons8.com/color/48/arduino.png" alt="Arduino Logo" width="50">
-  <img src="https://img.icons8.com/color/48/python.png" alt="Python Logo" width="50">
-  <img src="https://img.icons8.com/color/48/nvidia.png" alt="Jetson Nano Logo" width="50">
-  <img src="https://img.icons8.com/color/48/ubuntu.png" alt="Ubuntu Logo" width="50">
-  <img src="https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64994922cf2a6385a4bf4489_UltralyticsYOLO_mark_blue.svg" alt="YOLO Logo" width="50">
-  <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black.png" alt="OpenCV Logo" width="50">
-  <img src="https://www.arducam.com/wp-content/uploads/2023/07/logo-4.png" alt="Arducam Logo" width="100">
-  <img src="https://img.icons8.com/color/48/autodesk-fusion-360.png" alt="Fusion 360 Logo" width="50">
-  <img src="https://e7.pngegg.com/pngimages/194/758/png-clipart-altium-designer-printed-circuit-board-pcb-computer-software-eagle-electronics-animals-thumbnail.png" alt="Altium Designer Logo" width="50">
-  <img src="https://img.icons8.com/ios-filled/50/000000/flask.png" alt="Flask Logo" width="50">
+  <img src="https://roboticsbackend.com/wp-content/uploads/2022/04/ros_logo.png" alt="ROS2 Logo" height="42" valign="middle">
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/color/48/arduino.png" alt="Arduino Logo" height="42" valign="middle">
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/color/48/python.png" alt="Python Logo" height="42" valign="middle">
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/color/48/nvidia.png" alt="Jetson Nano Logo" height="42" valign="middle">
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/color/48/ubuntu.png" alt="Ubuntu Logo" height="42" valign="middle">
+  &nbsp;&nbsp;
+  <img src="https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64994922cf2a6385a4bf4489_UltralyticsYOLO_mark_blue.svg" alt="YOLO Logo" height="42" valign="middle">
+  &nbsp;&nbsp;
+  <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black.png" alt="OpenCV Logo" height="42" valign="middle">
+  &nbsp;&nbsp;
+  <img src="https://www.arducam.com/wp-content/uploads/2023/07/logo-4.png" alt="Arducam Logo" height="42" valign="middle">
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/color/48/autodesk-fusion-360.png" alt="Fusion 360 Logo" height="42" valign="middle">
+  &nbsp;&nbsp;
+  <img src="https://e7.pngegg.com/pngimages/194/758/png-clipart-altium-designer-printed-circuit-board-pcb-computer-software-eagle-electronics-animals-thumbnail.png" alt="Altium Designer Logo" height="42" valign="middle">
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/ios-filled/50/000000/flask.png" alt="Flask Logo" height="42" valign="middle">
 </p>
 
 ---
@@ -190,6 +201,6 @@ Bogotá D.C., Colombia
 
 ## License
 
-Copyright (c) 2025 Leffer Trochez.
+Copyright (c) 2026 Leffer Trochez.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full license text.
