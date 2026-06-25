@@ -67,16 +67,16 @@ The repository is organized as follows:
 
 ```text
 .
-├── 3D Design/                         # CAD model of the robot
-├── Code/                              # Reference code for ROS 2 nodes, Arduino, perception, and web interface
-│   └── Web_page_flask/                # Flask-based web interface resources
-├── Electronic schematics/             # Main electronic schematics and connection diagrams
-├── Images/                            # Robot images, visual assets, icons, interface screenshots, and demo media
-├── Mechanical drawings/               # Mechanical drawings of 3D-printed parts
-├── Neural network training/           # YOLOv8 training resources and related materials
-├── Support videos/                    # Demonstration videos of selected robot functions
-├── Printed Circuit Boards (PCB).zip   # PCB design files and related manufacturing resources
-└── README.md                          # Main project documentation
+├── 3D Design/                 # CAD model of the robot
+├── Code/                      # Reference code for ROS 2 nodes, Arduino, perception, and web interface
+│   └── Web_page_flask/        # Flask-based web interface resources
+├── Electronic schematics/     # Main electronic schematics and connection diagrams
+├── Images/                    # Robot images, visual assets, icons, interface screenshots, and demo media
+├── Mechanical drawings/       # Mechanical drawings of 3D-printed parts
+├── Neural network training/   # YOLOv8 training resources and related materials
+├── Support videos/            # Demonstration videos of selected robot functions
+├── LICENSE                    # MIT license
+└── README.md                  # Main project documentation
 ```
 
 Brief description of the main repository contents:
@@ -88,19 +88,16 @@ Brief description of the main repository contents:
 - `Mechanical drawings/` contains drawings and dimensions of mechanical parts.
 - `Neural network training/` contains object-detection training resources for selected classes such as child, knife, scissors, coin, outlet, medication, adult, and other related categories.
 - `Support videos/` contains short demonstrations of selected robot functions.
-- `Printed Circuit Boards (PCB).zip` contains the PCB design files associated with the robot electronics.
 
 ---
 
 ## Printed Circuit Boards
 
-The PCB resources for DuqueXII are included in this repository as:
+The PCB resources for DuqueXII are available at the following external link:
 
-```text
-Printed Circuit Boards (PCB).zip
-```
+[DuqueXII PCBs](https://mega.nz/folder/jAYnmKTD#5Ih3JERNvTSeVLhx3qoRsw)
 
-This compressed file contains PCB-related design resources for the circuits used in the robot. The boards were manufactured at the Printed Circuit Laboratory of Universidad de los Andes.
+These files include PCB-related design resources for the circuits used in the robot. The boards were manufactured at the Printed Circuit Laboratory of Universidad de los Andes. Due to file-size limitations, these PCB resources are not stored directly in this GitHub repository.
 
 ---
 
