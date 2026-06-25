@@ -132,7 +132,7 @@ The original development environment used the following main tools and platforms
 
 The following video shows a representative demonstration of the DuqueXII robot prototype and its main monitoring, perception, and alert functionalities.
 
-https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+https://github.com/user-attachments/assets/b600526c-b047-4748-be59-e298e5338e72
 
 ---
 
