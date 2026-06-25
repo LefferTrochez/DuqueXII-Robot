@@ -1,7 +1,7 @@
 # DuqueXII - Stationary Robot for Domestic Child-Safety Monitoring
 
 <p align="center">
-  <img src="Images/Fig_1.jpg" alt="DuqueXII Robot" width="800">
+  <img src="Images/Fig_1.jpg" alt="DuqueXII Robot" width="400">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/status-prototype-blue" alt="Prototype Status" valign="middle">
@@ -130,15 +130,9 @@ The original development environment used the following main tools and platforms
 
 ## Demonstration Video
 
-A short DuqueXII demonstration video is included in the `Images/` folder.
+The following video shows a representative demonstration of the DuqueXII robot prototype and its main monitoring, perception, and alert functionalities.
 
-<p align="center">
-  <video src="Images/DuqueXII%204.mp4" controls width="700"></video>
-</p>
-
-If the video does not render directly in GitHub, open it from the repository using the following link:
-
-[Open DuqueXII demonstration video](Images/DuqueXII%204.mp4)
+https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 ---
 
