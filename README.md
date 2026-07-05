@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Jetson-Nano-green" alt="Jetson Nano" valign="middle">
   <img src="https://img.shields.io/badge/Arduino-Nano%2033%20BLE%20Sense-teal" alt="Arduino Nano 33 BLE Sense" valign="middle">
   <a href="https://doi.org/10.5281/zenodo.20881362"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20881362.svg" alt="DOI" valign="middle"></a>
-  <img src="https://img.shields.io/badge/license-MIT-red" alt="MIT License" valign="middle">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-red" alt="License" valign="middle"></a>
 </p>
 
 ---
@@ -85,7 +85,7 @@ The repository is organized as follows:
 ├── Mechanical_drawings/       # Mechanical drawings of 3D-printed parts
 ├── Neural_network_training/   # YOLOv8 training resources and related materials
 ├── Support_videos/            # Videos of selected robot functions
-├── LICENSE                    # MIT license
+├── LICENSE                    # Apache-2.0 license
 └── README.md                  # Main project documentation
 ```
 
@@ -220,4 +220,4 @@ The repository can be cited as software in the following format:
 
 Copyright (c) 2026 Leffer Trochez.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full license text.
+This project is licensed under the Apache-2.0 license. See the [LICENSE](LICENSE) file for the full license text.
