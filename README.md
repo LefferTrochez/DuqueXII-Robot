@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Python-3.8-blue" alt="Python 3.8" valign="middle">
   <img src="https://img.shields.io/badge/Jetson-Nano-green" alt="Jetson Nano" valign="middle">
   <img src="https://img.shields.io/badge/Arduino-Nano%2033%20BLE%20Sense-teal" alt="Arduino Nano 33 BLE Sense" valign="middle">
-  <a href="https://doi.org/10.5281/zenodo.2081362"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.2081362-blue" alt="DOI" valign="middle"></a>
+  <a href="https://doi.org/10.5281/zenodo.20881362"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20881362-blue" alt="DOI" valign="middle"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-red" alt="License" valign="middle"></a>
 </p>
 
